@@ -10,6 +10,9 @@
     "server": "npm run dev --prefix server",
     "client": "npm run dev --prefix client"
   },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  },
   "keywords": [
     "geopram",
     "services",
