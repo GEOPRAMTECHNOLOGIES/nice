@@ -7,3 +7,11 @@
     "PORT": "5000"
   }
 }
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/client/dist/$1"
+    }
+  ]
+}
