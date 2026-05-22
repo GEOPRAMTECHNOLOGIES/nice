@@ -1,0 +1,24 @@
+{
+  "name": "geopram-service-platform",
+  "version": "1.0.0",
+  "description": "Professional Service Ordering Platform with M-Pesa Integration",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client && npm run build --prefix server",
+    "start": "npm start --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "keywords": [
+    "geopram",
+    "services",
+    "mpesa",
+    "payments"
+  ],
+  "author": "Geopram Tech",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
